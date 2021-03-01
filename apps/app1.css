@@ -1,0 +1,9 @@
+.app1 > span {
+  color: blue;
+  margin-left: 20px;
+}
+.app1 .buttons > button {
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 4px 10px;
+}

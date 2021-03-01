@@ -1,0 +1,10 @@
+{
+  "name": "mvc1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "FlashXu <260842931@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}

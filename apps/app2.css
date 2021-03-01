@@ -1,0 +1,16 @@
+.app2 .buttons {
+  display: flex;
+}
+.app2 .buttons > button {
+  padding: 2px 8px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.app2 .content > div {
+  margin-top: 20px;
+  margin-left: 10px;
+  display: none;
+}
+.app2 .content > div.active {
+  display: block;
+}

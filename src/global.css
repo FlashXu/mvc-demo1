@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-y: auto;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+ol,
+ul {
+  list-style: none;
+}
+.apps {
+  display: flex;
+  flex-wrap: wrap;
+}
+.apps > section {
+  border: 1px solid black;
+  width: 50vw;
+  height: 50vh;
+}

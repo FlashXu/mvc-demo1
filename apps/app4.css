@@ -1,0 +1,26 @@
+.app4 {
+  position: relative;
+}
+.app4 .circle {
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid red;
+  border-radius: 50%;
+}
+@keyframes change {
+  0% {
+    background: red;
+    border: 2px solid red;
+  }
+  100% {
+    background: yellow;
+    border: 2px solid yellow;
+  }
+}
+.app4 .circle.active {
+  animation: change 5s infinite alternate linear;
+}
